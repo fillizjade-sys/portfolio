@@ -718,27 +718,32 @@
             font-size: 23px;
             line-height: 38px;
         }}
-.social-links a {
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.social-links .sub-title a {
   color: #d4af37;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  margin: 8px 0;
+  gap: 10px;
   font-size: 18px;
   transition: 0.3s ease;
 }
 
-.social-links a i {
+.social-links .sub-title a i {
   color: #d4af37;
   font-size: 18px;
 }
 
-.social-links a:hover {
+.social-links .sub-title a:hover {
   color: #ffffff;
   transform: translateX(5px);
 }
 
-.social-links a:hover i {
+.social-links .sub-title a:hover i {
   color: #ffffff;
 }
