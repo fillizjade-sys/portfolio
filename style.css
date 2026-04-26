@@ -718,26 +718,27 @@
             font-size: 23px;
             line-height: 38px;
         }}
-.icons .row .info a {
+.social-links a {
   color: #d4af37;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin: 6px 0;
+  margin: 8px 0;
+  font-size: 18px;
   transition: 0.3s ease;
 }
 
-.icons .row .info a i {
+.social-links a i {
   color: #d4af37;
-  font-size: 16px;
+  font-size: 18px;
 }
 
-.icons .row .info a:hover {
+.social-links a:hover {
   color: #ffffff;
   transform: translateX(5px);
 }
 
-.icons .row .info a:hover i {
+.social-links a:hover i {
   color: #ffffff;
 }
